@@ -43,3 +43,41 @@ By the end of the talk, you will know how to deal with the feedback that you rec
     description=static_analysis_description
     youtube_video_id="ApUc7VEfKkw"
 %}
+
+{% capture introduction_to_bazel_description %}
+Yet another build system? Why should you learn a new one?
+
+{Fast, Correct} - Choose two
+
+that's the motto of Bazel. In this talk I will give an introduction to the open-source build and test tool developed by Google. The first major release was published by the end of 2019. What is so special about Bazel? It is fast, reliable, multi-platform, scalable and extensible. Everything extracted using a high-level build language similar to Python called Starlark. During the talk I will show you how to define libraries, binaries and tests for C++, as well as for Python. In addition I will show you how to combine both languages in a project and how to set up a build toolchain. At the end of the talk I will give you some ideas on extensions that can be added to fit your project and requirements.
+{% endcapture %}
+
+{% include talk.html
+    title="Introduction to Bazel to build C++ and Python"
+    description=introduction_to_bazel_description
+    youtube_video_id="vEQQ9QOVpdU"
+%}
+
+{% capture dependency_management_description %}
+Proper handling of dependencies in a software development project can make the difference between success and failure. A lot of actors need to be aware of these dependencies: the developer, the compiler, the linker, the build system, the runtime system and so on (even the legal department). This takes special importance in projects that need to scale, not only in the runtime phase but also in the development phase.
+
+In this presentation, we will go through the different types of dependencies and how they can affect each phase of the project. We will go from the generic point of view with everyday life examples to the singularities of C++ including concepts that are generic for all software development projects. In the last part of the presentation, we will see how Modules introduced in C++20 could change the current scenario regarding dependencies. After this presentation, the audience will have the tools to have a better understanding of the dependencies in their projects.
+
+Some of the concepts that we will go through are: direct vs transitive dependency, full dependency vs dependency by name, dependency graph, compilation vs runtime dependency.
+{% endcapture %}
+
+{% include talk.html
+    title="Dependency Management in C++"
+    description=dependency_management_description
+    youtube_video_id="dJpAppmRWVI"
+%}
+
+{% capture sizeof_description %}
+Lightning talk about the sizeof operator in C++. It shows that to figure out the size of a type is not a trivial task.
+{% endcapture %}
+
+{% include talk.html
+    title="sizeof"
+    description=sizeof_description
+    youtube_video_id="BWdX6yXFj_Y"
+%}
