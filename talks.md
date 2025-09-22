@@ -4,6 +4,17 @@ title: Talks
 permalink: /talks/
 ---
 
+{% capture dynamic_memory_allocation_description %}
+A program is nothing else than a bunch of instructions modifying chunks of memory based on some inputs to produce some outputs. When these chunks of memory are defined at runtime, we call it dynamic memory allocation. In C++ there are multiple situations where dynamic memory allocation is performed. A user can allocate dynamic memory explicitly in different ways, but dynamic memory allocation can also happen implicitly. There are multiple features of C++ that require dynamic memory allocation, but this is not always necessarily clear to the user. This might become a problem in certain fields. In safety critical systems some guidelines forbid the use of dynamic memory allocation.
+
+In this talk we will analyse certain features of the C++ library to see if they dynamically allocate or not. We will also learn what are the challenges with dynamic memory allocation in safety critical systems and what alternatives do we have. By the end of the talk you will have gained the knowledge to dynamically allocate memory in safety critical systems in a safer way.
+{% endcapture %}
+
+{% include talk.html
+    title="Dynamic memory allocation challenges in safety critical systems"
+    description=dynamic_memory_allocation_description
+%}
+
 {% capture coverage_description %}
 Code coverage is one of the metrics to be considered when you want to deliver high quality software. At the same time, having 100% code coverage does not guarantee you anything.
 
