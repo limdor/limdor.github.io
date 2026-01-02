@@ -3,7 +3,14 @@
       <h1>{{ include.title }}</h1><br/>
       {{ include.description | markdownify }}<br/>
       {% if include.youtube_video_id %}
+      {% if include.youtube_video_header %}
+      <h4>{{ include.youtube_video_header}}:</h4>
+      {% endif %}
       <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.youtube_video_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      {% endif %}
+      {% if include.youtube_video_additional_id %}
+      <h4>{{ include.youtube_video_additional_header}}:</h4>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.youtube_video_additional_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       {% endif %}
       <br/><br/><br/><br/>
     </div>

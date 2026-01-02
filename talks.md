@@ -61,13 +61,16 @@ Yet another build system? Why should you learn a new one?
 
 {Fast, Correct} - Choose two
 
-that's the motto of Bazel. In this talk I will give an introduction to the open-source build and test tool developed by Google. The first major release was published by the end of 2019. What is so special about Bazel? It is fast, reliable, multi-platform, scalable and extensible. Everything extracted using a high-level build language similar to Python called Starlark. During the talk I will show you how to define libraries, binaries and tests for C++, as well as for Python. In addition I will show you how to combine both languages in a project and how to set up a build toolchain. At the end of the talk I will give you some ideas on extensions that can be added to fit your project and requirements.
+that's the motto of Bazel. In this talk I will give an introduction to the open-source build and test tool developed by Google. The first major release was published by the end of 2019. What is so special about Bazel? It is fast, reliable, multi-platform, scalable and extensible. Everything extracted using a high-level build language similar to Python called Starlark. During the talk I will show you how to define libraries, binaries and tests for C++, as well as for Python and Rust. In addition I will show you how to combine languages in a project and how to set up a build toolchain. At the end of the talk I will give you some ideas on extensions that can be added to fit your project and requirements.
 {% endcapture %}
 
 {% include talk.html
-    title="Introduction to Bazel to build C++ and Python"
+    title="Introduction to Bazel"
     description=introduction_to_bazel_description
-    youtube_video_id="vEQQ9QOVpdU"
+    youtube_video_header="Presentation at NDC Techtown 2025 (Updated version of the code::dive edition)"
+    youtube_video_id="R_EyoO3YGxk"
+    youtube_video_additional_header="Presentation at code::dive 2020 (Outdated and without Rust)"
+    youtube_video_additional_id="vEQQ9QOVpdU"
 %}
 
 {% capture dependency_management_description %}
