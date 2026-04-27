@@ -13,7 +13,10 @@ In this talk we will analyse certain features of the C++ library to see if they 
 {% include talk.html
     title="Dynamic memory allocation challenges in safety critical systems"
     description=dynamic_memory_allocation_description
-    youtube_video_id="B54oCS4qdU8"
+    youtube_video_header="Presentation at NDC Techtown 2025"
+    youtube_video_id="YsTQ5rj9fUc"
+    youtube_video_additional_header="Presentation at ACCU 2025"
+    youtube_video_additional_id="B54oCS4qdU8"
 %}
 
 {% capture coverage_description %}
