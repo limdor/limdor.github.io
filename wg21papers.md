@@ -8,13 +8,18 @@ This is the list of papers to improve C++ that I am interested in and I track th
 
 | Paper | Authors | Github Issue | Status |
 | --- | --- | --- | --- |
-| [A framework for systematically addressing undefined behaviour in the C++ Standard](https://wg21.link/p3100) | Timus Doumler<br>Joshua Berne | [Issue](https://wg21.link/p3100/github) | R5 version needs to be updated and presented again in EWG for a case-by-case wording review. |
-| [A gentle introduction to pointer authentication](https://wg21.link/p3751) | Oliver Hunt<br>John McCall | [Issue](https://wg21.link/p3751/github) | Informational only. |
-| [A principled approach to safety profiles](https://wg21.link/p3649) | Jonathan Müller | [Issue](https://wg21.link/p3649/github) | Informational only. |
-| [A Safety Profile Verifying Initialization](https://wg21.link/p3402) | Marc-André Laverdière<br>Christopher Lapkowski<br>Charles-Henri Gros | [Issue](https://wg21.link/p3402/github) | R3 seen in SG23 and polled to forward it to EWG. |
-| [Dealing with pointer errors: Separating static and dynamic checking](https://wg21.link/p3611) | Bjarne Stroustrup | [Issue](https://wg21.link/p3611/github) | Informational only. |
 | [Thread attributes](https://wg21.link/p2019) | Corentin Jabot | [Issue](https://wg21.link/p2019/github) | R7 with prposed SG16 changes approved by LEWG and forwarded to LWG. |
+| [A framework for systematically addressing undefined behaviour in the C++ Standard](https://wg21.link/p3100) | Timus Doumler<br>Joshua Berne | [Issue](https://wg21.link/p3100/github) | R5 version needs to be updated and presented again in EWG for a case-by-case wording review. |
+| [A Safety Profile Verifying Initialization](https://wg21.link/p3402) | Marc-André Laverdière<br>Christopher Lapkowski<br>Charles-Henri Gros | [Issue](https://wg21.link/p3402/github) | R3 seen in SG23 and polled to forward it to EWG. |
+| [Stop the Bleeding but, First, Do No Harm](https://wg21.link/p3498) | Gabriel Dos Reis<br>Thomas Wise<br>Zachary Henkel | [Issue](https://wg21.link/p3498/github) | Informational only. |
+| [Dealing with pointer errors: Separating static and dynamic checking](https://wg21.link/p3611) | Bjarne Stroustrup | [Issue](https://wg21.link/p3611/github) | Informational only. |
+| [A principled approach to safety profiles](https://wg21.link/p3649) | Jonathan Müller | [Issue](https://wg21.link/p3649/github) | Informational only. |
 | [cstring_view](https://wg21.link/p3655) | Peter Bindels<br>Hana Dusíková<br>Jeremy Rifkin<br>Marco Foco<br>Alexey Shevlyakov | [Issue](https://wg21.link/p3655/github) | Multiple direction polls taken. To be seen again by LEWG. |
+| [Making Safe C++ happen](https://wg21.link/p3700) | Peter Bindels | [Issue](https://wg21.link/p3700/github) | More worked was encouraged after seeing R0 in SG23 and EWG. |
+| [What are profiles?](https://wg21.link/p3704) | Bjarne Stroustrup | [Issue](https://wg21.link/p3704/github) | Informational only. |
+| [Safer StringViewLike Functions for Replacing char* strings](https://wg21.link/p3711) | Marco Foco | [Issue](https://wg21.link/p3711/github) | No consensus to dedicate more time. |
+| [Subsetting](https://wg21.link/p3716) | Peter Bindels | [Issue](https://wg21.link/p3716/github) | More worked was encouraged after seeing R0 in SG23. |
+| [A gentle introduction to pointer authentication](https://wg21.link/p3751) | Oliver Hunt<br>John McCall | [Issue](https://wg21.link/p3751/github) | Informational only. |
 
 This is the list of papers to improve C++ that I am involved as an author:
 
