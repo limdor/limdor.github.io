@@ -17,7 +17,7 @@ permalink: /publications/
     image_path="/assets/cav2013.png"
     title="3D shape retrieval using viewpoint information-theoretic measures"
     url="http://onlinelibrary.wiley.com/doi/10.1002/cav.1566/abstract"
-    authors="Xavier Bonaventura,  Jianwei Guo, Weiliang Meng, Miquel Feixas, Xiaopeng Zhang, Mateu Sbert"
+    authors="Xavier Bonaventura, Jianwei Guo, Weiliang Meng, Miquel Feixas, Xiaopeng Zhang, Mateu Sbert"
     journal="Computer Animations and Virtual Worlds, ISSN 1546-427X"
     date="December 2013"
 %}
