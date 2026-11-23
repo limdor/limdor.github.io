@@ -5,10 +5,19 @@ permalink: /publications/
 ---
 
 {% include module.html
+    image_path="/assets/cg2017.png"
+    title="Information measures for terrain visualization"
+    url="https://www.sciencedirect.com/science/article/pii/S0098300416305660"
+    authors="Xavier Bonaventura, Aleksandra A. Sima, Miquel Feixas, Simon J. Buckley, Mateu Sbert, John A. Howell"
+    journal="Computer & Geosciences, ISSN 0098-3004"
+    date="2017"
+%}
+
+{% include module.html
     image_path="/assets/cav2013.png"
     title="3D shape retrieval using viewpoint information-theoretic measures"
     url="http://onlinelibrary.wiley.com/doi/10.1002/cav.1566/abstract"
-    authors="Xavier Bonaventura,  Jianwei Guo, Weiliang Meng, Miquel Feixas, Xiaopeng Zhang, Mateu Sbert"
+    authors="Xavier Bonaventura, Jianwei Guo, Weiliang Meng, Miquel Feixas, Xiaopeng Zhang, Mateu Sbert"
     journal="Computer Animations and Virtual Worlds, ISSN 1546-427X"
     date="December 2013"
 %}
