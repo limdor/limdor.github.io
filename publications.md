@@ -5,6 +5,15 @@ permalink: /publications/
 ---
 
 {% include module.html
+    image_path="/assets/entropy2018.png"
+    title="A Survey of Viewpoint Selection Methods for Polygonal Models"
+    url="https://doi.org/10.3390/e20050370"
+    authors="Xavier Bonaventura, Miquel Feixas, Mateu Sbert, Lewis Chuang, Christian Wallraven"
+    journal="Entropy"
+    date="2018"
+%}
+
+{% include module.html
     image_path="/assets/cg2017.png"
     title="Information measures for terrain visualization"
     url="https://www.sciencedirect.com/science/article/pii/S0098300416305660"
