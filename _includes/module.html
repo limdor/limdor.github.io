@@ -7,5 +7,8 @@
       <i>{{ include.authors }}</i><br/>
       {{ include.journal }}<br/>
       {{ include.date }}
+      {% if include.preprint %}
+      <br/><a href="{{ include.preprint }}">Preprint</a> - <a href="{{ include.url }}">Final publication</a>
+      {% endif %}
     </div>
 </div>

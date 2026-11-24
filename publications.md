@@ -20,6 +20,7 @@ permalink: /publications/
     authors="Xavier Bonaventura, Aleksandra A. Sima, Miquel Feixas, Simon J. Buckley, Mateu Sbert, John A. Howell"
     journal="Computer & Geosciences, ISSN 0098-3004"
     date="2017"
+    preprint="/assets/InformationMeasuresForTerrainVisualization_Preprint.pdf"
 %}
 
 {% include module.html
@@ -29,6 +30,7 @@ permalink: /publications/
     authors="Xavier Bonaventura, Jianwei Guo, Weiliang Meng, Miquel Feixas, Xiaopeng Zhang, Mateu Sbert"
     journal="Computer Animations and Virtual Worlds, ISSN 1546-427X"
     date="December 2013"
+    preprint="/assets/3DShapeRetrievalUsingViewpointMeasures_Preprint.pdf"
 %}
 
 {% include module.html
@@ -38,6 +40,7 @@ permalink: /publications/
     authors="Xavier Bonaventura,  Jianwei Guo, Weiliang Meng, Miquel Feixas, Xiaopeng Zhang, Mateu Sbert"
     journal="Proceedings of the 12th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and Its Applications in Industry (VRCAI '13), Pages 183-190, ISBN 978-1-4503-2590-5"
     date="November 2013"
+    preprint="/assets/ViewpointInformationTheoreticMeasuresFor3DShapeSimilarity_Preprint.pdf"
 %}
 
 {% include module.html
@@ -47,6 +50,7 @@ permalink: /publications/
     authors="Xavier Bonaventura and Miquel Feixas and Mateu Sbert"
     journal="Special Issue \"Human Vision and Information Theory\" Signal, Image and Video Processing, Springer, Volume 7, Issue 3, Pages 467-478, ISSN 1863-1703"
     date="May 2013"
+    preprint="/assets/InformationMeasuresForObjectUnderstanding_Preprint.pdf"
 %}
 
 {% include module.html
